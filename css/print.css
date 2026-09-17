@@ -1,3 +1,1 @@
-
-header,nav,footer,.complete,button,.mission-nav,.progress,#progressText{display:none!important}
-body{background:white;font-size:11pt}.mission{page-break-before:always}.card{box-shadow:none;border:1px solid #bbb}.teacher{border-left:0}.printable{page-break-inside:avoid}
+header,footer,.hero,#plan,#p1,#actividades,#pasaporte,#recursos,#docente,.activity>h2,.activity>.tag,.activity>.purpose,.student,.self,button{display:none!important}.activity{padding:0;border:0}.activity .paper{display:none}.paper.print-target{display:block!important;border:0;margin:0}.write{border:1px dashed #777}body{background:#fff;font-size:10pt}
