@@ -1,1 +1,0 @@
-function printOne(btn){document.querySelectorAll('.print-target').forEach(x=>x.classList.remove('print-target'));let p=btn.closest('.paper');p.classList.add('print-target');window.print();setTimeout(()=>p.classList.remove('print-target'),500)}
