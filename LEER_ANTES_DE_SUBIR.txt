@@ -1,0 +1,1 @@
+Coloque el logo institucional original con el nombre logo-cajpd.png dentro de la carpeta assets antes de subir a GitHub. Se conservan las 8 actividades, fichas, instrumentos, rúbrica y funciones de impresión. El archivo original de cuarto identifica ScratchJr; no se ha cambiado su contenido curricular a Scratch MIT.
