@@ -1,0 +1,4 @@
+CUARTO DE PRIMARIA - Identidad institucional original de quinto.
+Subir index.html y las carpetas css, js, assets a la raíz del repositorio.
+No cambie los nombres de carpetas. El archivo conserva las 8 actividades originales y sus fichas, instrumentos y funciones de impresión.
+ATENCIÓN: El contenido fuente de cuarto dice ScratchJr, no Scratch MIT. No se ha alterado el currículo.
