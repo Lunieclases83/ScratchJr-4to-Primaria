@@ -4,3 +4,13 @@
 .brandtext{min-width:0}.school-name{font-size:1rem;font-weight:800;letter-spacing:.04em;color:#fff}
 .course-name{font-weight:700;color:#f1d56f}.brandtext p{margin:.55rem 0 0}
 @media(max-width:700px){.institutional{align-items:flex-start;gap:12px}.school-logo{width:76px;height:76px}.school-name{font-size:.78rem}.brandtext h1{font-size:1.45rem}.course-name{font-size:.88rem}}
+
+/* Corregir el ancho del encabezado institucional */
+header {
+    width: 100%;
+    max-width: none;
+}
+
+header::before {
+    width: 100%;
+}
