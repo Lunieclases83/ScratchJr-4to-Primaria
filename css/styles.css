@@ -5,41 +5,53 @@
 .course-name{font-weight:700;color:#f1d56f}.brandtext p{margin:.55rem 0 0}
 @media(max-width:700px){.institutional{align-items:flex-start;gap:12px}.school-logo{width:76px;height:76px}.school-name{font-size:.78rem}.brandtext h1{font-size:1.45rem}.course-name{font-size:.88rem}}
 
-/* Rediseño Tecnología Creativa — paleta inspirada en Scratch MIT */
-:root{--n:#3479d4;--g:#ffab19;--p:#f5f8ff;--v:#e7fff5}
-body{background:linear-gradient(145deg,#f3f7ff 0%,#fff9f0 55%,#f1fff9 100%);color:#263354}
-header{background:linear-gradient(120deg,#4c97ff,#7c64e8 58%,#9966ff);border-bottom:7px solid #ffab19;box-shadow:0 9px 25px #5268a02c}
-header h1{color:#fff;text-shadow:0 2px 4px #2222}
-.course-name{color:#ffe7a4}
-nav a{background:#ffffff1b;border:1px solid #ffffff77;transition:.2s}
-nav a:hover,nav a:focus{background:#ffab19;color:#283050;transform:translateY(-2px)}
-.hero{border-top:8px solid #ffab19;background:linear-gradient(125deg,#fff,#fff3d9);box-shadow:0 8px 25px #4961a019}
-.hero h2{color:#e47a10}
-.process{background:#e3f7ff;color:#246ca8;border-left:5px solid #4c97ff}
-.periods span{box-shadow:0 5px 15px #5366a01a;border:1px solid #e7eaff;font-weight:700}
-.periods span:nth-child(4n+1){border-left:7px solid #ffab19;background:#fff6e6}
-.periods span:nth-child(4n+2){border-left:7px solid #4c97ff;background:#ecf5ff}
-.periods span:nth-child(4n+3){border-left:7px solid #0fbd8c;background:#eafff7}
-.periods span:nth-child(4n){border-left:7px solid #9966ff;background:#f3edff}
-.actnav a{border-left:6px solid #4c97ff;background:#fff;box-shadow:0 4px 14px #5366a015;font-weight:700;transition:.2s}
-.actnav a:nth-child(4n+2){border-left-color:#ffab19}
-.actnav a:nth-child(4n+3){border-left-color:#9966ff}
-.actnav a:nth-child(4n){border-left-color:#0fbd8c}
-.actnav a:hover{transform:translateY(-3px);background:#eef6ff}
-.activity{border-bottom:2px dashed #cbd9f6}
-.activity h2{color:#386fc2}
-.tag{background:#fff0d2;color:#a45b00;border:1px solid #ffd17e}
-.student,.paper,.self{box-shadow:0 6px 20px #4e66a013}
-.student{border-top:6px solid #9966ff}
-.student h3{color:#7652c8}
-.paper{border:1px solid #dce6fa;border-top:5px solid #4c97ff}
+/* Scratch-inspired creative classroom design — edition 2 */
+:root{--n:#4c97ff;--g:#ffab19;--p:#f5f8ff;--v:#e8fff6;--ink:#233459}
+body{background:linear-gradient(135deg,#eef5ff 0%,#f9f7ff 46%,#fffaf1 100%);color:var(--ink);font-family:system-ui,-apple-system,'Segoe UI',Arial,sans-serif}
+header{position:relative;overflow:hidden;background:linear-gradient(115deg,#347de6 0%,#4c97ff 40%,#7855db 100%);border-bottom:7px solid #ffab19;box-shadow:0 8px 30px #4c76a82b;padding:24px max(24px,5vw)}
+header:before{content:'';position:absolute;right:-80px;top:-160px;width:340px;height:340px;border:50px solid #ffffff14;border-radius:50%;pointer-events:none}
+header:after{content:'';position:absolute;right:16%;bottom:-65px;width:150px;height:150px;background:#ffab1920;transform:rotate(24deg);border-radius:30px;pointer-events:none}
+.institutional{position:relative;z-index:1;gap:20px;align-items:center}
+.school-logo{width:106px;height:106px;background:#fff;border-radius:22px;padding:9px;box-shadow:0 9px 24px #142c672d;object-fit:contain}
+.school-name{font-size:.9rem;letter-spacing:.07em;color:#fff;line-height:1.45}
+header h1{font-size:clamp(1.6rem,3.1vw,2.65rem);line-height:1.15;margin:.45rem 0;color:#fff;letter-spacing:-.025em}
+.course-name{color:#fff1bd;font-weight:750}
+.brandtext p{font-size:.86rem;letter-spacing:.035em;color:#eff7ff}
+nav{position:relative;z-index:1;margin-top:21px;gap:8px}
+nav a{background:#ffffff19;color:white;border:1px solid #ffffff66;border-radius:12px;padding:9px 13px;font-weight:650;transition:background .15s,transform .15s}
+nav a:hover,nav a:focus{background:#ffab19;color:#273454;transform:translateY(-2px)}
+main{max-width:1120px;padding:28px 22px}
+main>section{scroll-margin-top:20px}
+.hero{background:linear-gradient(120deg,#fff 0%,#fff4dd 100%);border:1px solid #ffdc98;border-top:8px solid #ffab19;box-shadow:0 8px 28px #405d9a14;border-radius:20px;padding:24px}
+.hero h2{color:#e57700;font-size:clamp(1.35rem,2.3vw,2rem);margin-top:0}
+.process{background:#e4f4ff;color:#246bb4;border-left:5px solid #4c97ff;border-radius:10px;padding:15px;line-height:1.65}
+#plan,#p1,#actividades,#rubrica,#pasaporte,#recursos,#docente{margin-top:30px}
+main section>h2{color:#263e78}
+.periods,.actnav{gap:14px}
+.periods span{border-radius:15px;padding:18px;font-weight:750;box-shadow:0 6px 16px #3a5e9a13}
+.periods span:nth-child(4n+1){background:#fff1d7;border-left:7px solid #ffab19}
+.periods span:nth-child(4n+2){background:#eaf4ff;border-left:7px solid #4c97ff}
+.periods span:nth-child(4n+3){background:#e6fff4;border-left:7px solid #0fbd8c}
+.periods span:nth-child(4n){background:#f0eaff;border-left:7px solid #9966ff}
+.actnav a{border-left:6px solid #4c97ff;border-radius:14px;padding:18px;font-weight:750;box-shadow:0 5px 17px #47649b14;transition:transform .15s,box-shadow .15s}
+.actnav a:nth-child(4n+2){border-left-color:#ffab19}.actnav a:nth-child(4n+3){border-left-color:#9966ff}.actnav a:nth-child(4n){border-left-color:#0fbd8c}
+.actnav a:hover{transform:translateY(-3px);box-shadow:0 9px 22px #47649b25}
+.activity{border-bottom:2px dashed #cddcf8;padding:38px 0}
+.activity h2{color:#3275c6;margin:12px 0;font-size:clamp(1.5rem,2.7vw,2.1rem)}
+.tag{background:#fff0cf;color:#a45e00;border:1px solid #ffdb88;display:inline-block}
+.purpose{background:#eaf4ff;padding:13px 16px;border-radius:12px;border-left:4px solid #4c97ff}
+.student,.paper,.self{border-radius:17px;box-shadow:0 5px 18px #4663a014}
+.student{border-top:6px solid #9966ff}.student h3{color:#7653c8}
+.paper{border:1px solid #d7e4fa;border-top:5px solid #4c97ff}
 .paper.instrument{border-top-color:#0fbd8c}
-.self{border-left:6px solid #ff6680;background:#fff2f6}
-button{background:#4c97ff;font-weight:700;cursor:pointer;transition:.2s}
-button:hover{background:#7554d9}
-th{background:#e8f3ff;color:#205b9b}
+.paperhead{flex-wrap:wrap}
+.self{border-left:6px solid #ff6680;background:#fff2f7}
+button{background:#4c97ff;color:white;font-weight:750;cursor:pointer;border-radius:10px;padding:11px 15px}
+button:hover{background:#7655d8}
+th{background:#e9f4ff;color:#285c99}
 #rubrica>.paper{border-top-color:#ffab19}
-#pasaporte{background:#fff5dc;border-radius:18px;padding:20px;margin:20px 0}
-#docente{background:#eff4ff;border-left:6px solid #9966ff;border-radius:12px;padding:20px}
-footer{background:#314c91}
-@media print{header,footer,.hero,#plan,#p1,#actividades,#pasaporte,#recursos,#docente,.activity>h2,.activity>.tag,.activity>.purpose,.student,.self,button{display:none!important}body{background:#fff!important}.paper{box-shadow:none!important}}
+#pasaporte{padding:20px;background:#fff2d9;border-radius:17px}
+#docente{padding:20px;background:#eeedff;border-left:6px solid #9966ff;border-radius:15px}
+footer{background:#273c79}
+@media(max-width:700px){header{padding:20px 16px}.school-logo{width:75px;height:75px;border-radius:16px}.institutional{gap:13px}.school-name{font-size:.72rem}.brandtext p{font-size:.73rem}main{padding:18px 12px}.hero{padding:18px}.periods,.actnav{grid-template-columns:1fr}nav a{padding:8px 10px;font-size:.85rem}}
+@media print{body{background:white!important}.paper{box-shadow:none!important}.paper.print-target{border:0!important}}

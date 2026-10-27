@@ -1,0 +1,1 @@
+Versión rediseñada de 4.º: contiene index.html, css/styles.css, css/print.css, js/app.js, assets/logo-cajpd.png. Suba la estructura completa a GitHub manteniendo las carpetas. Conserva todas las actividades y funciones originales. NOTA: El contenido original del curso se titula ScratchJr, no Scratch MIT.
