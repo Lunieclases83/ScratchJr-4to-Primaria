@@ -1,2 +1,0 @@
-Fase 3 v2: actividades explícitas para 4.º de Primaria; ficha e instrumento imprimibles por actividad; menú Actividades y Recursos.
-Actualización institucional: se incorporó el logo oficial suministrado por la usuaria y el nombre completo del Colegio Adventista Juan Pablo Duarte en la cabecera.
